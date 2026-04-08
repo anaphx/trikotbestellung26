@@ -183,7 +183,7 @@
 <header>
   <div class="header-inner">
     <!-- BWK Logo inline SVG (stylized shield blue-white) -->
-    <svg class="header-logo" viewBox="0 0 120 130" xmlns="http://www.w3.org/2000/svg">
+   <img class="header-logo" src="https://blau-weiss-koeln.de/wp-content/uploads/2025/08/Logo-BWK_weiss_negativ-300x300-1.png" alt="KHTC Blau-Weiss Logo">
       <!-- Shield shape -->
       <path d="M60 4 L112 28 L112 72 Q112 106 60 126 Q8 106 8 72 L8 28 Z" fill="white" stroke="#d4a820" stroke-width="4"/>
       <!-- Blue top band -->
@@ -203,25 +203,17 @@
 
   <!-- Trikot preview: SVG illustrations -->
   <div class="trikot-preview">
-    <div class="trikot-preview-item">
-      <svg viewBox="0 0 80 88" width="70" xmlns="http://www.w3.org/2000/svg">
-        <path d="M16,8 L4,22 L16,28 L16,80 L64,80 L64,28 L76,22 L64,8 Q52,14 40,14 Q28,14 16,8Z" fill="#003f8a" stroke="white" stroke-width="1.5"/>
-        <path d="M16,8 Q28,14 40,14 Q52,14 64,8 L64,40 L16,40Z" fill="white" opacity="0.15"/>
-        <line x1="16" y1="8" x2="16" y2="80" stroke="white" stroke-width="1" opacity="0.3"/>
-        <line x1="64" y1="8" x2="64" y2="80" stroke="white" stroke-width="1" opacity="0.3"/>
-        <text x="40" y="62" text-anchor="middle" font-family="Oswald,sans-serif" font-size="18" font-weight="700" fill="white">##</text>
-      </svg>
-      <span>Heim</span>
-    </div>
-    <div class="trikot-preview-item">
-      <svg viewBox="0 0 80 88" width="70" xmlns="http://www.w3.org/2000/svg">
-        <path d="M16,8 L4,22 L16,28 L16,80 L64,80 L64,28 L76,22 L64,8 Q52,14 40,14 Q28,14 16,8Z" fill="white" stroke="#003f8a" stroke-width="2"/>
-        <path d="M16,8 Q28,14 40,14 Q52,14 64,8 L64,40 L16,40Z" fill="#003f8a" opacity="0.12"/>
-        <text x="40" y="62" text-anchor="middle" font-family="Oswald,sans-serif" font-size="18" font-weight="700" fill="#003f8a">##</text>
-      </svg>
-      <span>Auswärts</span>
-    </div>
+  <div class="trikot-preview-item">
+    <img src="https://lh7-rt.googleusercontent.com/formsz/AN7BsVDGdxSpRuO2_Uh5JKVHowhJ9VWyVW_rj5D86IPflcMR5oFesoKCmEuImLTwCcUZCzoqeGtvlsDQ4y0b45XhH6otqzWllAKwd9T3HV7qGA6UahDiwX2yQWEICes7kfNxUIURUazMol2-bi71JcIVgPcmV2IVsLvIthYT?key=KGfmi-30AuvmiuWyxZ3LmQ"
+      alt="Trikot Heim" style="height:90px;border-radius:6px;object-fit:cover;">
+    <span>Heim</span>
   </div>
+  <div class="trikot-preview-item">
+    <img src="https://lh7-rt.googleusercontent.com/formsz/AN7BsVC0tudlje4q8jVjH2FLvsZiSxKwHbu095s1SCgBW9Pgqo7UJMip3bCqDPw6szXSo_ml0liECla11hjbUTytPHNBDnt26fd1KYMuoctcLFSEzAzzWrxVC3FTdHukOiDJsut9Fsmrggn9PQc9kJE31H2pbuYnIao3L7KNzw?key=KGfmi-30AuvmiuWyxZ3LmQ"
+      alt="Trikot Auswärts" style="height:90px;border-radius:6px;object-fit:cover;">
+    <span>Auswärts</span>
+  </div>
+</div>
 
   <div class="progress-wrap">
     <div class="progress-inner">
@@ -274,7 +266,7 @@
       <label>Name auf Trikot</label>
       <input type="text" id="trikot-name" placeholder="z.B. MUSTERFRAU   –oder–   – (für ohne Namen)" maxlength="18"
         oninput="this.value=this.value.toUpperCase();checkSubmit()">
-      <p class="field-hint">Max. 18 Zeichen · Strich „–" eingeben für Trikot ohne Namen</p>
+      <p class="field-hint">Strich „–" eingeben für Trikot ohne Namen</p>
     </div>
   </div>
 
@@ -300,7 +292,7 @@
       <button class="size-btn" onclick="selectSize('L')">L</button>
       <button class="size-btn" onclick="selectSize('XL')">XL</button>
     </div>
-    <p class="field-hint" style="margin-top:0.6rem;">⚠️ Trikots fallen größer aus als das alte Modell – ggf. eine Größe kleiner wählen</p>
+    <p class="field-hint" style="margin-top:0.6rem;">Trikots fallen Normal aus </p>
   </div>
 
   <button class="submit-btn" id="submit-btn" onclick="submitOrder()" disabled>Bestellung hinzufügen</button>
